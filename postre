@@ -1,0 +1,8 @@
+docker exec -it pgdbratings bash
+
+psql -h localhost -U postgres
+list databses \l
+\c database spring_auth
+list tables \dt
+get schema of table, i.e descirbe \d table_name example: \d users
+create user CREATE USER user_name WITH [OPTION]; [3]
